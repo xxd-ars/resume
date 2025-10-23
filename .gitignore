@@ -1,0 +1,11 @@
+# Ignore everything
+*
+*/
+
+# Except resume.tex and CLAUDE.md
+!resume.tex
+!CLAUDE.md
+!.gitignore
+
+# Also allow resume PDF if it exists
+!resume.pdf

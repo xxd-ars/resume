@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Xindong
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Xindong XU} \\ \vspace{1pt}
+    \small +33 07 52 06 31 88 $|$
+    \href{mailto:xindong.xu@etu.minesparis.psl.eu}{\underline{xindong.xu@etu.minesparis.psl.eu}} $|$
+    Nationality: Chinese
+    \vspace{-8pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Second year student at the Ecole des Mines de Paris in a double degree program with the Shanghai Jiao Tong University. Looking for opportunities to develop skills in Data Science, Machine Learning, and Software Engineering.
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Mines Paris - PSL}{2021 -- 2023}
+    {2nd best general engineering school in France}{Paris, France}
+        \resumeItemListStart
+        \resumeItem{Main courses: Operations Research, Optimization, Advanced Stochastic Process, Machine Learning}
+        \resumeItemListEnd
+    \resumeSubheading
+    {Shanghai Jiao Tong University}{2018 -- 2021}
+    {Preparatory class: MPSI -- MP}{Shanghai, China}
+        \resumeItemListStart
+        \resumeItem{Outstanding graduates in 2022 of Shanghai (Jun 2022)}
+        \resumeItem{University entrance exam scores: 598/630, ranking: 294/52000 (Jun 2018)}
+        \resumeItem{Main courses: Dynamical Systems, Stability and Control, Continuum Mechanics, Fluid Mechanics, Quantum Mechanics}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROFESSIONAL EXPERIENCE-----------
+\section{Professional and Project Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Research Centre of Applied Mathematics of Mines}{2023 (3 months)}
+    {Data Science Research Project}{Sophia-Antipolis, France}
+      \resumeItemListStart
+        \resumeItem{Control of underwater robotic arm based on reinforcement learning and intrinsic motivation system}
+        \resumeItem{Construction of an intrinsically motivated machine system to achieve robot's explorational action}
+        \resumeItem{Training of a Deep Q Reinforcement Learning Network for robot control based on Python}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Mines Paris and Château de Versailles}{2022 (3 months)}
+    {Virtual Reality Project}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Design of an interactive VR game}
+        \resumeItem{Implementation of the 3D model of the Château de Versailles and VR game design with Unity and C\# programming}
+        \resumeItem{Control of the game character, creating interactive contents, sound effects and scene changes}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Mines Paris et L'Oréal}{2022 (4 months)}
+    {Data Science Project}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Natural language processing of sentiment analysis on L'Oréal Paris user feedback}
+        \resumeItem{Process of a dataset of unstructured textual consumer feedbacks with NLP methods based on Python}
+        \resumeItem{Extraction of the most frequent themes and associated sentiments with the Long Short-Term Memory model}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Sénat and Jardin de Luxembourg}{2022 (1 month)}
+    {Worker Internship: Gardener}{Paris, France}
+      \resumeItemListStart
+        \resumeItem{Hands-on experience in garden maintenance and landscaping at the historic Luxembourg Gardens}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Shanghai Jiao Tong University}{2022 (5 months)}
+    {Undergraduate Research Project}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{Steady-State Movement Visual Evoked Potential brain-machine interface research}
+        \resumeItem{Electroencephalography signal processing of SSMVEP with MATLAB}
+        \resumeItem{Study of the effects of different algorithms based on the canonical analysis of correlations, using analysis of variance}
+      \resumeItemListEnd
+
+    \resumeSubheading
+    {Shanghai Jiao Tong University}{2021 (4 months)}
+    {Research in Deep Learning and Image Processing}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{Electron trace repair in the non-neutrino double-beta decay experiment}
+        \resumeItem{Programming based on TensorFlow 2.0, KERAS and the Generative Adversarial Network (GAN) model}
+        \resumeItem{Generation of images of repaired paths and restoration of particle scattering}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Language and Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Chinese (native), English (advanced: CET6: 625/710, equivalent to IELTS 7), French (advanced), Russian} \\
+     \textbf{Programming Languages}{: Python, C, C\#, C++, MATLAB} \\
+     \textbf{Tools \& Technologies}{: Unity, TensorFlow, KERAS, MS Office, LaTeX, SolidWorks, Windows, Linux} \\
+     \textbf{Skills}{: Data structures, algorithms, machine learning, NLP, reinforcement learning, computer vision} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INTERESTS AND ACTIVITIES---------------
+\section{Interests and Associative Activities}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Mines Sports Office}{2021 -- 2023}{Head of the Tournament Unit}{Paris, France}
+            \resumeItemListStart
+                \resumeItem{Organization of sports competitions among schools}
+            \resumeItemListEnd
+
+        \resumeSubheading{Students' Residence}{2021 -- 2023}{Gymnasium Head}{Paris, France}
+            \resumeItemListStart
+                \resumeItem{Management and coordination of gymnasium facilities and activities}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\vspace{-16pt}
+\section{Sports and Hobbies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Sports}{: Football (10 years of practice), Snowboarding (1 year of practice), Weight training (2 years of practice)} \\
+    }}
+ \end{itemize}
+
+\end{document}
