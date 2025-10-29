@@ -4,6 +4,7 @@
 
 # Except resume.tex and CLAUDE.md
 !resume.tex
+!resume_fr.tex
 !template.tex
 !CLAUDE.md
 !.gitignore
