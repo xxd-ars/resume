@@ -1,0 +1,329 @@
+%-------------------------
+% Resume in Latex
+% Author : Xindong
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{lmodern}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Xindong Xu} \\ \vspace{1pt}
+    % % 123 Street Name, Town, State 12345 \\ \vspace{1pt}
+    % \small \raisebox{-0.1\height}\faPhone\ +33 752063188 ~ 
+    % % \small \raisebox{-0.1\height}\faPhone\ +86 13918135369  \\ \vspace{1pt}
+    % \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{xindong.xu@etu.minesparis.psl.eu}} ~ 
+    % \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/xindong-xu-697854230/}}  ~
+    % \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/xxd-ars}}
+    % \vspace{-8pt}
+
+    
+    \small +33 752063188 $|$ 
+    % \small +86 13918135369 $|$ 
+    \href{mailto:x@x.com}{\underline{xindong.xu@etu.minesparis.psl.eu}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/xindong-xu-697854230}} $|$
+    \href{https://github.com/...}{\underline{github.com/xxd-ars}}
+\end{center}
+
+% %-----------SUMMARY-----------
+% \section{Summary}
+% Second year student at the Ecole des Mines de Paris in a double degree program with the Shanghai Jiao Tong University. Looking for opportunities to develop skills in Data Science, Machine Learning, and Software Engineering.
+
+%-----------FORMATION-----------
+\section{Formation}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Shanghai Jiao Tong University}{Sep. 2024 -- Fév. 2026}
+    {Master d'Ingénierie (Deep Learning et Génie Mécanique)}{Shanghai, Chine}
+        \resumeItemListStart
+        \resumeItem{Développement d'un framework de deep learning bimodal utilisant l'attention croisée pour la segmentation automatisée de couches sanguines, déployé sur plateforme robotique de manipulation de fluides et d'imagerie multi-illumination.}
+        \resumeItemListEnd
+    \resumeSubheading
+    {Mines Paris - PSL}{Sep. 2021 -- Fév. 2026}
+    {Diplôme d'Ingénieur (Cycle Ingénieur Civil)}{Paris, France}
+        \resumeItemListStart
+        \resumeItem{Cours principaux : Optimisation, Recherche Opérationnelle, Processus Stochastiques Avancés, Deep Learning, Apprentissage par Renforcement.}
+        \resumeItem{Boursier du programme France Excellence Eiffel (Campus France).}
+        \resumeItemListEnd
+    \resumeSubheading
+    {Shanghai Jiao Tong University}{Sep. 2018 -- Juin 2022}
+    {Licence d'Ingénierie (Génie Mécanique)}{Shanghai, Chine}
+        \resumeItemListStart
+        \resumeItem{Cours principaux : Systèmes Dynamiques, Programmation Avancée, Algorithmes et structures de données.}
+        \resumeItem{Prix d'Excellence des Diplômés de Shanghai (Commission Municipale de l'Éducation).}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXPÉRIENCE PROFESSIONNELLE-----------
+\section{Expérience Professionnelle}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {DeepDyna AI (Co-Fondateur)}{Déc. 2024 -- Présent}
+      {Développeur Full-Stack \& Designer Produit}{Shanghai, Chine}
+        \resumeItemListStart
+          \resumeItem{Fondation et développement d'une plateforme full-stack d'automatisation de contenu IA générant 20 000+ articles sur 50+ comptes avec un ROI de 20\%.}
+          \resumeItem{Conception de pipelines intégrés pour le scraping de données, l'analyse des tendances et la génération de contenu amélioré par RAG à l'aide d'API multi-fournisseurs (OpenRouter, Google Vertex, Volcengine), complétés par la création automatisée d'images et des workflows de publication pilotés par RPA.}
+          \resumeItem{Implémentation d'une infrastructure cloud-native combinant PostgreSQL et bases vectorielles pour l'agrégation de contenu, analytics d'engagement et tracking de performances end-to-end.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Veolia Asia - Southa Holdings Limited}{Jan. 2024 -- Juin 2024}
+      {Stagiaire Data Science}{Hong Kong RAS}
+        \resumeItemListStart
+          \resumeItem{Conception et déploiement de modèles ML prédictifs intégrant la prévision de charge XGBoost/LSTM et des modèles COP thermodynamiques, couplés à un solveur d'optimisation pour déterminer le séquencement optimal des groupes frigorifiques en quasi temps réel du réseau West Kowloon Cultural District.}
+          \resumeItem{Développement de dashboards analytiques pour la prise de décision data-driven et l'optimisation opérationnelle.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {b:bot by GreenBig}{Mai 2023 -- Nov. 2023}
+      {Stagiaire Vision par Ordinateur \& Systèmes Embarqués}{Paris, France}
+        \resumeItemListStart
+          \resumeItem{Développement et déploiement de modèles YOLOv8 sur Azure ML Studio et Jetson Nano pour la surveillance temps réel et la détection de fraudes, maintenant un traitement vidéo 30 fps tout en prévenant $\sim$5 cas de fraude quotidiens.}
+        \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJETS-----------
+\section{Projets}
+\vspace{-5pt}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Assistant Bancaire Multi-Agents RAG} $|$ \emph{LLMs, PostgreSQL, pgvector, RAG}}{Mars 2025 -- Juil. 2025}
+\resumeItemListStart
+  \resumeItem{Implémentation d'un agent MCP avec raisonnement multi-itératif et mémoire de travail, intégrant PostgreSQL pgvector pour une recherche sémantique $<$ 100ms et une précision d'intention $>$ 95\% en Q\&A bancaire.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+\resumeProjectHeading
+{\textbf{Système d'Intelligence Crypto Trading Temps Réel} $|$ \emph{web3.py, Discord.py, Telegram API}}{Mars 2024 -- Présent}
+\resumeItemListStart
+  \resumeItem{Mise en place d'un pipeline temps réel agrégeant des données Twitter, évaluant l'impact des nouvelles via LLM et envoyant des alertes critiques sur Discord/Telegram avec appels téléphoniques automatisés.}
+  \resumeItem{Implémentation d'un tracker on-chain détectant les mouvements de portefeuilles « smart-money » (Ethereum, Solana, BSC) et déclenchant des alertes Telegram instantanées pour la réplication de stratégies.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+% \resumeProjectHeading
+% {\textbf{Underwater Robotic Arm Control via Reinforcement Learning} $|$ \emph{Python, Deep Q-Learning}}{Nov 2022 -- Feb 2023}
+% \vspace{-20pt}
+
+\resumeProjectHeading
+{\textbf{Contrôle Autonome de Bras Robotique Sous-Marin par DRL} $|$ \emph{Python, Deep Q-Learning}}{Nov. 2022 -- Fév. 2023}
+\resumeItemListStart
+  \resumeItem{Entraînement d'un agent Deep Q-Learning pour le contrôle autonome d'un bras robotique sous-marin (Mines Sophia-Antipolis), intégrant une motivation intrinsèque pour l'exploration.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+\resumeProjectHeading
+{\textbf{Escape Game VR Château de Versailles} $|$ \emph{Unity, C\#, Modélisation 3D}}{Sep. 2022 -- Nov. 2022}
+\resumeItemListStart
+  \resumeItem{Développement d'une expérience VR interactive avec modélisation 3D photoréaliste et gameplay immersif du Château de Versailles.}
+\resumeItemListEnd
+\vspace{-24pt}
+
+\resumeProjectHeading
+{\textbf{Analyse de Sentiments Clients L'Oréal par NLP} $|$ \emph{Python, NLP, LSTM}}{Mai 2022 -- Juil. 2022}
+\resumeItemListStart
+  \resumeItem{Modèle LSTM pour l'extraction automatique de thèmes et sentiments à partir de commentaires de clients non structurés afin de générer des informations exploitables sur les produits.}
+\resumeItemListEnd
+\vspace{-15pt}
+
+\resumeProjectHeading
+{\textbf{Reconstruction de Traces d'Électrons par GAN (PandaX)} $|$ \emph{TensorFlow, Keras, GANs}}{2021}
+\resumeItemListStart
+  \resumeItem{Modèle GAN basé sur TensorFlow pour la restauration des traces d'électrons dans l'expérience PandaX sur la désintégration double bêta sans neutrinos.}
+
+  
+\resumeItemListEnd
+
+
+\resumeSubHeadingListEnd
+
+%-----------COMPÉTENCES TECHNIQUES-----------
+\section{Compétences Techniques et Langues}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Langages}{: Python, C/C++, C\#, Solidity, MATLAB, SQL, JavaScript, HTML/CSS, LaTeX} \\
+     \textbf{ML/DL}{: PyTorch, TensorFlow, Keras, OpenAI API, LangChain, RAG, pgvector, scikit-learn, asyncio} \\
+     \textbf{Data \& Cloud}{: pandas, NumPy, Flask, FastAPI, PostgreSQL, Vector DB, Git, Docker, Azure ML, GCP} \\
+     \textbf{Langues}{: Mandarin \& Shanghaïen (Natif), Anglais (TOEFL 105/120), Français (B2), Russe \& Cantonais (Notions) }
+    }}
+ \end{itemize}
+
+\end{document}
+
+
+%-----------LEADERSHIP & ACTIVITÉS---------------
+\section{Leadership \& Activités}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Bureau des Sports de Mines Paris}{2021 -- 2023}{Responsable de l'Unité Tournois}{Paris, France}
+            \resumeItemListStart
+                \resumeItem{Organisation de compétitions sportives inter-écoles et gestion de la logistique des tournois pour plus de 500 participants}
+            \resumeItemListEnd
+
+        \resumeSubheading{Résidence Étudiante}{2021 -- 2023}{Responsable du Gymnase}{Paris, France}
+            \resumeItemListStart
+                \resumeItem{Gestion et coordination des installations et activités du gymnase pour les étudiants résidents}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+ %-----------PROJETS-----------
+\section{Projets}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Contrôle de Bras Robotique Sous-Marin par Apprentissage par Renforcement} $|$ \emph{Python, Deep Q-Learning}}{2023}
+          \resumeItemListStart
+            \resumeItem{Projet de recherche au Centre de Recherche en Mathématiques Appliquées de Mines Paris à Sophia-Antipolis}
+            \resumeItem{Construction d'un système machine intrinsèquement motivé pour réaliser des actions exploratoires du robot}
+            \resumeItem{Entraînement d'un réseau Deep Q Reinforcement Learning pour le contrôle autonome d'un bras robotique sous-marin}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Jeu VR Interactif pour le Château de Versailles} $|$ \emph{Unity, C\#, Modélisation 3D}}{2022}
+          \resumeItemListStart
+            \resumeItem{Collaboration avec Mines Paris et le Château de Versailles pour concevoir une expérience de réalité virtuelle interactive}
+            \resumeItem{Implémentation du modèle 3D du Château de Versailles avec le moteur Unity et programmation C\#}
+            \resumeItem{Développement du contrôle des personnages, contenu interactif, effets sonores et transitions de scènes dynamiques}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Analyse de Sentiments des Retours Clients L'Oréal} $|$ \emph{Python, NLP, LSTM}}{2022}
+          \resumeItemListStart
+            \resumeItem{Projet Data Science en collaboration avec Mines Paris et L'Oréal Paris}
+            \resumeItem{Traitement de jeux de données de retours consommateurs textuels non structurés en utilisant des méthodes de Traitement Automatique du Langage Naturel}
+            \resumeItem{Extraction des thèmes et sentiments les plus fréquents en utilisant un modèle Long Short-Term Memory (LSTM)}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Recherche sur Interface Cerveau-Machine SSMVEP} $|$ \emph{MATLAB, Traitement du Signal}}{2022}
+          \resumeItemListStart
+            \resumeItem{Projet de recherche de licence à l'Université Shanghai Jiao Tong sur les Potentiels Évoqués Visuels de Mouvement en Régime Permanent}
+            \resumeItem{Traitement de signaux électroencéphalographiques (EEG) de SSMVEP avec MATLAB}
+            \resumeItem{Étude des effets de différents algorithmes basés sur l'analyse de corrélation canonique en utilisant l'analyse de variance}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Réparation de Traces d'Électrons par GANs} $|$ \emph{TensorFlow, Keras, GANs}}{2021}
+          \resumeItemListStart
+            \resumeItem{Projet de recherche sur la réparation de traces d'électrons dans l'expérience de double désintégration bêta sans neutrino à SJTU}
+            \resumeItem{Implémentation d'un modèle de Réseau Antagoniste Génératif (GAN) en utilisant TensorFlow 2.0 et Keras}
+            \resumeItem{Génération d'images de trajectoires réparées et réalisation de la restauration de trajectoires de diffusion de particules}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-15pt}

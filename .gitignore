@@ -3,11 +3,14 @@
 */
 
 # Except resume.tex and CLAUDE.md
+!/cv
 !resume.tex
 !resume_fr.tex
 !template.tex
 !CLAUDE.md
+!README.md
 !.gitignore
 
 # Also allow resume PDF if it exists
 !CV_Xindong.pdf
+!CV_Xindong_fr.pdf
